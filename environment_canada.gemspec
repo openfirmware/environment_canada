@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = EnvironmentCanada::VERSION
   spec.authors       = ["James Badger"]
   spec.email         = ["jamesbadger@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Environment Canada weather library}
+  spec.summary       = %q{Connects to Environment Canada, downloads the weather information for a city, parses it, and returns it as a Ruby object.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
