@@ -9,8 +9,9 @@ module EnvironmentCanada
 
       # Return list of cities that match a keyword.
       def find(keyword)
+        keyword = keyword.downcase
         cities.find_all do |city_code, city_name|
-          city_name == keyword
+          city_name.downcase.include?(keyword)
         end
       end
     end
