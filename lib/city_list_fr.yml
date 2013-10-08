@@ -1,0 +1,840 @@
+villes:
+  - AB-10: Athabasca
+  - AB-11: Okotoks
+  - AB-12: Airdrie
+  - AB-14: Hinton
+  - AB-15: Lloydminster
+  - AB-16: Rocky Mountain House
+  - AB-17: Crowsnest
+  - AB-18: Camrose
+  - AB-19: Milk River
+  - AB-1: Cochrane
+  - AB-20: Fort McMurray
+  - AB-21: Rainbow Lake
+  - AB-22: Stony Plain
+  - AB-23: Cold Lake
+  - AB-24: High Level
+  - AB-25: Peace River
+  - AB-26: Vegreville
+  - AB-27: Vauxhall
+  - AB-28: Fort Chipewyan
+  - AB-29: Red Deer
+  - AB-2: Barrhead
+  - AB-30: Lethbridge
+  - AB-31: Grande Prairie
+  - AB-32: Lac La Biche
+  - AB-33: Mildred Lake
+  - AB-34: Kananaskis (Nakiska Ridgetop)
+  - AB-35: Onefour
+  - AB-36: Breton
+  - AB-37: Hendrickson Creek
+  - AB-38: Nordegg
+  - AB-39: Lacombe
+  - AB-3: Canmore
+  - AB-40: Red Earth Creek
+  - AB-41: Willow Creek (Parc provincial)
+  - AB-42: Bow Valley (Parc provincial)
+  - AB-43: Ile Bow
+  - AB-44: Stavely
+  - AB-45: Grande Cache
+  - AB-46: Pincher Creek
+  - AB-47: Suffield
+  - AB-48: Drayton Valley
+  - AB-49: Banff
+  - AB-4: High River
+  - AB-50: Edmonton
+  - AB-51: Medicine Hat
+  - AB-52: Calgary
+  - AB-53: Sundre
+  - AB-54: Slave Lake
+  - AB-55: Wainwright
+  - AB-56: Whitecourt
+  - AB-57: Beaverlodge
+  - AB-58: Brooks
+  - AB-59: Coronation
+  - AB-5: Stettler
+  - AB-60: Claresholm
+  - AB-61: Calgary (Parc Olympique)
+  - AB-62: Drumheller
+  - AB-63: Elk Island (Parc national)
+  - AB-64: Cardston
+  - AB-65: Garden Creek
+  - AB-66: Parc Waterton
+  - AB-67: Esther
+  - AB-68: Highvale
+  - AB-69: Three Hills
+  - AB-6: Strathmore
+  - AB-70: Jasper
+  - AB-71: Edmonton (Aprt int.)
+  - AB-72: Edson
+  - AB-7: Taber
+  - AB-8: Westlock
+  - AB-9: Wetaskiwin
+  - BC-10: Rock Creek
+  - BC-11: Kootenay (Parc national)
+  - BC-12: Clearwater
+  - BC-13: Valemount
+  - BC-14: Dease Lake
+  - BC-15: Estevan Point
+  - BC-16: Pemberton
+  - BC-17: Tofino
+  - BC-18: Bella Coola
+  - BC-19: Campbell River
+  - BC-1: Gibsons
+  - BC-20: Nanaimo
+  - BC-21: Castlegar
+  - BC-22: Blue River
+  - BC-23: Chetwynd
+  - BC-24: Chilliwack
+  - BC-25: Dawson Creek
+  - BC-26: Creston
+  - BC-27: Vernon
+  - BC-28: Lillooet
+  - BC-29: Malahat
+  - BC-30: Kitimat
+  - BC-31: Hope Slide
+  - BC-32: Gonzales Point
+  - BC-33: Lytton
+  - BC-34: Golden
+  - BC-35: Pitt Meadows
+  - BC-36: Hope
+  - BC-37: Nelson
+  - BC-38: Nakusp
+  - BC-39: Grand Forks
+  - BC-3: Sechelt
+  - BC-40: Esquimalt
+  - BC-41: Princeton
+  - BC-42: Puntzi Mountain
+  - BC-43: Burns Lake
+  - BC-44: Vanderhoof
+  - BC-45: Kamloops
+  - BC-46: Port Alberni
+  - BC-47: McBride
+  - BC-48: Kelowna
+  - BC-49: Merritt
+  - BC-50: Squamish
+  - BC-51: Salmon Arm
+  - BC-52: Sparwood
+  - BC-53: Tetsa River (Parc provincial)
+  - BC-54: Summerland
+  - BC-55: Cache Creek
+  - BC-56: Masset
+  - BC-57: Prince Rupert
+  - BC-58: Powell River
+  - BC-59: Victoria (Hartland)
+  - BC-5: Ucluelet
+  - BC-60: Tatlayoko Lake
+  - BC-61: Comox
+  - BC-62: White Rock
+  - BC-63: Muncho Lake
+  - BC-64: Quesnel
+  - BC-65: Revelstoke
+  - BC-66: Victoria (UniversitÃ© de)
+  - BC-67: Atlin
+  - BC-68: Yoho (Parc national)
+  - BC-69: Osoyoos
+  - BC-6: Cassiar
+  - BC-70: Agassiz
+  - BC-71: Trail
+  - BC-72: Invermere
+  - BC-73: Stewart
+  - BC-74: Vancouver
+  - BC-75: Victoria Harbour
+  - BC-76: Williams Lake
+  - BC-77: Cranbrook
+  - BC-78: Fort St. John
+  - BC-79: Prince George
+  - BC-7: 100 Mile House
+  - BC-80: Terrace
+  - BC-81: Abbotsford
+  - BC-82: Smithers
+  - BC-83: Fort Nelson
+  - BC-84: Penticton
+  - BC-85: Victoria
+  - BC-86: Whistler
+  - BC-87: Liard River
+  - BC-88: Sandspit
+  - BC-89: Port Hardy
+  - BC-8: Dome Creek
+  - BC-90: Mackenzie
+  - BC-91: Clinton
+  - BC-92: Courtenay
+  - BC-93: Gulf Islands (Secteur sud)
+  - BC-94: Bella Bella
+  - BC-95: Cummins Lakes (Parc provincial)
+  - BC-9: Good Hope Lake
+  - MB-10: Minnedosa
+  - MB-11: Morris
+  - MB-12: Snow Lake
+  - MB-13: Steinbach
+  - MB-14: Oak Point
+  - MB-15: McCreary
+  - MB-16: Souris
+  - MB-17: Morden
+  - MB-18: Little Grand Rapids
+  - MB-19: Pilot Mound
+  - MB-20: Virden
+  - MB-21: Arnes
+  - MB-22: Leaf Rapids
+  - MB-23: Sprague
+  - MB-24: Fisher Branch
+  - MB-25: Norway House
+  - MB-26: Winkler
+  - MB-27: Oxford House
+  - MB-28: Shoal Lake
+  - MB-29: Portage la Prairie
+  - MB-2: Dominion City
+  - MB-30: The Pas
+  - MB-31: Wasagaming
+  - MB-32: Roblin
+  - MB-33: Bissett
+  - MB-34: Thompson
+  - MB-35: Carberry
+  - MB-36: Winnipeg (La Fourche)
+  - MB-37: Bloodvein
+  - MB-38: Winnipeg
+  - MB-39: Shamattawa
+  - MB-3: Altona
+  - MB-40: Delta
+  - MB-41: Lynn Lake
+  - MB-42: Churchill
+  - MB-43: Bachelors Island
+  - MB-44: Pinawa
+  - MB-45: Melita
+  - MB-46: Swan River
+  - MB-47: Emerson
+  - MB-48: Gretna
+  - MB-49: Deerwood
+  - MB-4: Pine Falls
+  - MB-50: Hunters Point
+  - MB-51: Tadoule Lake
+  - MB-52: Brandon
+  - MB-53: Brochet
+  - MB-54: Berens River
+  - MB-55: Victoria Beach
+  - MB-56: York Factory
+  - MB-57: Grand Rapids
+  - MB-58: Dauphin
+  - MB-59: Island Lake
+  - MB-5: Poplar River
+  - MB-60: Flin Flon
+  - MB-61: Shilo
+  - MB-62: Gimli
+  - MB-63: Gods Lake
+  - MB-64: Gillam
+  - MB-65: Carman
+  - MB-66: Turtle Mountain (Parc provincial)
+  - MB-67: Pukatawagan
+  - MB-6: Richer
+  - MB-7: Vita
+  - MB-8: Whiteshell
+  - MB-9: Grand Beach
+  - NB-10: Mont Carleton (Parc provincial)
+  - NB-11: Oromocto
+  - NB-12: Quispamsis
+  - NB-13: Richibucto
+  - NB-14: Rogersville
+  - NB-15: Sackville
+  - NB-16: Saint-Quentin
+  - NB-17: ShÃ©diac
+  - NB-18: Saint Andrews
+  - NB-19: Sussex
+  - NB-1: Bouctouche
+  - NB-20: Tracadie-Sheila
+  - NB-21: Woodstock
+  - NB-22: Bas-Caraquet
+  - NB-23: Saint John
+  - NB-24: St. Leonard
+  - NB-25: Miramichi
+  - NB-26: Dalhousie
+  - NB-27: Grand Manan
+  - NB-28: Bathurst
+  - NB-29: Fredericton
+  - NB-2: Campbellton
+  - NB-30: Charlo
+  - NB-31: Miscou Island
+  - NB-32: Edmundston
+  - NB-33: Point Lepreau
+  - NB-34: Point Escuminac
+  - NB-35: St. Stephen
+  - NB-36: Moncton
+  - NB-3: Chipman
+  - NB-4: Doaktown
+  - NB-5: Fundy (Parc national)
+  - NB-6: Grand-Sault
+  - NB-8: Hopewell
+  - NB-9: Kouchibouguac
+  - NL-10: Musgrave Harbour
+  - NL-11: Port-au-Choix
+  - NL-12: Wabush Lake
+  - NL-13: Rocky Harbour
+  - NL-14: Bonavista
+  - NL-15: Terra Nova (Parc national)
+  - NL-16: Gander
+  - NL-17: Channel - Port aux Basques
+  - NL-18: Wreckhouse
+  - NL-19: Winterland
+  - NL-1: Clarenville
+  - NL-20: Labrador City
+  - NL-21: Churchill Falls
+  - NL-22: La Scie
+  - NL-23: Happy Valley-Goose Bay
+  - NL-24: St. John's
+  - NL-25: Makkovik
+  - NL-26: Marble Mountain
+  - NL-27: Stephenville
+  - NL-28: Cape Race
+  - NL-29: Mary's Harbour
+  - NL-2: Campbellton
+  - NL-30: Placentia
+  - NL-31: Burgeo
+  - NL-32: Cartwright
+  - NL-33: Daniel's Harbour
+  - NL-34: Badger
+  - NL-35: Twillingate
+  - NL-36: St. Lawrence
+  - NL-37: St. Anthony
+  - NL-38: Hopedale
+  - NL-39: Deer Lake
+  - NL-3: Marystown
+  - NL-40: Nain
+  - NL-41: Corner Brook
+  - NL-42: New-Wes-Valley
+  - NL-43: Bay Roberts
+  - NL-44: Englee
+  - NL-45: L'Anse-au-Loup
+  - NL-46: Rigolet
+  - NL-47: Cartwright Junction (Rte Trans-Labrador)
+  - NL-48: Gull Island Rapids (Rte Trans-Labrador)
+  - NL-4: Buchans
+  - NL-5: Grand Bank
+  - NL-6: Grand Falls-Windsor
+  - NL-7: Gros Morne
+  - NL-8: St Alban's
+  - NL-9: Lewisporte
+  - NS-10: Sheet Harbour
+  - NS-11: Shelburne
+  - NS-12: St. Peter's
+  - NS-13: Parrsboro
+  - NS-14: Tatamagouche
+  - NS-15: Windsor
+  - NS-16: Ingonish
+  - NS-17: Kentville
+  - NS-18: North East Margaree
+  - NS-19: Halifax
+  - NS-1: New Glasgow
+  - NS-20: Digby
+  - NS-21: Lunenburg
+  - NS-22: Malay Falls
+  - NS-23: Hart Island
+  - NS-24: Cap Fourchu
+  - NS-25: Truro
+  - NS-26: Port Hawkesbury
+  - NS-27: Brier Island
+  - NS-28: Tracadie
+  - NS-29: Yarmouth
+  - NS-2: Annapolis Royal
+  - NS-30: Western Head
+  - NS-31: Sydney
+  - NS-32: Grand Ã‰tang
+  - NS-33: Amherst
+  - NS-34: Caribou
+  - NS-35: Greenwood
+  - NS-36: Beaver Island
+  - NS-37: Cap Baccaro
+  - NS-38: ChÃ©ticamp
+  - NS-39: Liverpool
+  - NS-3: Antigonish
+  - NS-40: Halifax (Shearwater)
+  - NS-41: Cape George
+  - NS-42: Kejimkujik (Parc national)
+  - NS-43: North Mountain (Cap-Breton)
+  - NS-44: Eskasoni
+  - NS-4: Baddeck
+  - NS-5: Bridgetown
+  - NS-6: Bridgewater
+  - NS-7: Economy
+  - NS-8: Guysborough
+  - NT-10: Fort McPherson
+  - NT-11: Tulita
+  - NT-12: Nahanni Butte
+  - NT-13: Aklavik
+  - NT-14: Ekati (Lac de Gras)
+  - NT-15: Trout Lake
+  - NT-16: Paulatuk
+  - NT-17: Fort Smith
+  - NT-18: Gameti
+  - NT-19: Sachs Harbour
+  - NT-1: Detah
+  - NT-20: Tuktoyaktuk
+  - NT-21: Norman Wells
+  - NT-22: Deline
+  - NT-23: Wrigley
+  - NT-24: Yellowknife
+  - NT-26: Colville Lake
+  - NT-27: Fort Providence
+  - NT-28: Indin River
+  - NT-29: Fort Liard
+  - NT-2: Enterprise
+  - NT-30: Inuvik
+  - NT-31: Lutselke
+  - NT-3: Fort Resolution
+  - NT-4: Fort Simpson
+  - NT-5: Fort Good Hope
+  - NT-6: Whati
+  - NT-7: Ulukhaktok
+  - NT-8: Hay River
+  - NT-9: Wekweeti
+  - NU-10: Arctic Bay
+  - NU-11: Eureka
+  - NU-12: Grise Fiord
+  - NU-13: Kugaaruk
+  - NU-14: Baker Lake
+  - NU-15: Cambridge Bay
+  - NU-16: Kugluktuk
+  - NU-17: Chesterfield
+  - NU-18: Clyde River
+  - NU-19: Ennadai
+  - NU-1: Nanisivik
+  - NU-20: Arviat
+  - NU-21: Iqaluit
+  - NU-22: Alert
+  - NU-23: Igloolik
+  - NU-24: Gjoa Haven
+  - NU-25: Pond Inlet
+  - NU-26: Kimmirut
+  - NU-27: Resolute
+  - NU-28: Rankin Inlet
+  - NU-29: Sanikiluaq
+  - NU-2: Cape Dorset
+  - NU-3: Repulse Bay
+  - NU-4: Hall Beach
+  - NU-5: Qikiqtarjuaqq
+  - NU-6: Whale Cove
+  - NU-7: Pangnirtung
+  - NU-8: Taloyoak
+  - NU-9: Coral Harbour
+  - ON-100: Thunder Bay
+  - ON-101: Ogoki
+  - ON-102: Bancroft
+  - ON-103: Parry Sound
+  - ON-104: Red Lake
+  - ON-105: Sachigo Lake
+  - ON-106: Smiths Falls
+  - ON-107: St. Catharines
+  - ON-108: Marathon
+  - ON-109: Vineland
+  - ON-110: Wingham
+  - ON-111: Armstrong
+  - ON-112: Petawawa
+  - ON-113: Moosonee
+  - ON-114: Alliston
+  - ON-115: Stirling
+  - ON-116: Stratford
+  - ON-117: Oshawa
+  - ON-118: Ottawa (Kanata - OrlÃ©ans)
+  - ON-119: Whitby
+  - ON-11: Chatham-Kent
+  - ON-120: Pickle Lake
+  - ON-121: Peterborough
+  - ON-122: Alexandria
+  - ON-123: Terrace Bay
+  - ON-124: Big Trout Lake
+  - ON-125: Niagara Falls
+  - ON-126: Trenton
+  - ON-127: Timmins
+  - ON-128: Toronto Island
+  - ON-129: Sandy Lake
+  - ON-12: Fort Erie
+  - ON-130: Wiarton
+  - ON-131: Pembroke
+  - ON-132: Webequie
+  - ON-133: Barry's Bay
+  - ON-134: Savant Lake
+  - ON-135: Sioux Lookout
+  - ON-136: Earlton
+  - ON-137: London
+  - ON-138: Wawa
+  - ON-139: North Bay
+  - ON-13: Orillia
+  - ON-140: Orangeville
+  - ON-141: Rondeau (Parc provincial)
+  - ON-142: Kapuskasing
+  - ON-143: Toronto
+  - ON-144: Gore Bay
+  - ON-145: Kakabeka Falls
+  - ON-146: Killarney
+  - ON-147: Sarnia
+  - ON-148: Atikokan
+  - ON-149: Port Perry
+  - ON-14: Welland
+  - ON-150: Collingwood
+  - ON-151: Barrie
+  - ON-152: Cornwall
+  - ON-153: Greenstone (Beardmore)
+  - ON-154: Upsala
+  - ON-155: Winchester
+  - ON-156: Ignace
+  - ON-157: Tobermory
+  - ON-158: Wunnummin Lake
+  - ON-159: Fort Frances
+  - ON-15: Woodstock
+  - ON-160: Goderich
+  - ON-161: Simcoe
+  - ON-162: Sault Ste. Marie
+  - ON-163: Montreal River Harbour
+  - ON-164: Attawapiskat
+  - ON-165: Haliburton
+  - ON-166: Sioux Narrows
+  - ON-167: Ear Falls
+  - ON-168: Kawartha Lakes (Lindsay)
+  - ON-169: Midland
+  - ON-16: Walkerton
+  - ON-170: Elliot Lake
+  - ON-171: Fort Severn
+  - ON-172: Rodney
+  - ON-173: Fort Albany
+  - ON-174: Sudbury (Grand)
+  - ON-17: Tillsonburg
+  - ON-18: Strathroy
+  - ON-19: Port Elgin
+  - ON-1: Parc Algonquin (Brent)
+  - ON-21: Blind River
+  - ON-22: Temiskaming Shores
+  - ON-23: Leamington
+  - ON-24: Mississauga
+  - ON-25: Newmarket
+  - ON-26: Nipigon
+  - ON-27: Prince Edward (Picton)
+  - ON-28: Kincardine
+  - ON-29: Parc Algonquin (Lake of Two Rivers)
+  - ON-30: Apsley
+  - ON-31: Burk's Falls
+  - ON-32: Caledon
+  - ON-33: Cochrane
+  - ON-34: Dorion
+  - ON-35: Dunchurch
+  - ON-36: Dundalk
+  - ON-37: Gogama
+  - ON-38: Gravenhurst
+  - ON-39: Greater Napanee
+  - ON-3: Belleville
+  - ON-40: Grand Sudbury
+  - ON-41: Gull Bay
+  - ON-42: Haldimand County
+  - ON-43: Kaladar
+  - ON-44: Kawartha Lakes (Fenelon Falls)
+  - ON-45: Lac SupÃ©rieur (Parc provincial)
+  - ON-46: Lambton Shores
+  - ON-47: Lincoln
+  - ON-48: Mine Centre
+  - ON-49: New Tecumseth
+  - ON-4: Brampton
+  - ON-50: Norfolk
+  - ON-51: North Perth
+  - ON-52: Ottawa (Richmond - Metcalfe)
+  - ON-53: Oxtongue Lake
+  - ON-54: Pickering
+  - ON-55: Pikangikum
+  - ON-56: Port Carling
+  - ON-57: Quinte Ouest
+  - ON-58: Renfrew
+  - ON-59: Richmond Hill
+  - ON-5: Guelph
+  - ON-60: Saugeen Shores
+  - ON-61: Sharbot Lake
+  - ON-62: South Bruce Peninsula
+  - ON-63: Sydenham
+  - ON-64: Vaughan
+  - ON-65: Nipissing Ouest
+  - ON-66: Westport
+  - ON-67: White River
+  - ON-68: Halton Hills
+  - ON-69: Kingston
+  - ON-70: Greenstone (Geraldton)
+  - ON-71: Hawkesbury
+  - ON-72: Dryden
+  - ON-73: Hearst
+  - ON-74: Kemptville
+  - ON-75: Cobourg
+  - ON-76: Kirkland Lake
+  - ON-77: Hamilton
+  - ON-78: Hornepayne
+  - ON-79: Oakville
+  - ON-7: Owen Sound
+  - ON-80: Port Colborne
+  - ON-81: Cambridge
+  - ON-82: Kitchener-Waterloo
+  - ON-83: Deep River
+  - ON-84: Shelburne
+  - ON-85: Markham
+  - ON-86: Brantford
+  - ON-87: Lansdowne House
+  - ON-88: Huntsville
+  - ON-89: Mount Forest
+  - ON-8: Brockville
+  - ON-90: Gananoque
+  - ON-91: Chapleau
+  - ON-92: Morrisburg
+  - ON-93: Muskoka
+  - ON-94: Windsor
+  - ON-95: Burlington
+  - ON-96: Kenora
+  - ON-97: Greenstone (Nakina)
+  - ON-98: St. Thomas
+  - ON-99: Peawanuck
+  - ON-9: Bracebridge
+  - PE-1: North Cape
+  - PE-2: Maple Plains
+  - PE-3: Summerside
+  - PE-4: St. Peters Bay
+  - PE-5: Charlottetown
+  - PE-6: East Point
+  - QC-100: La Grande-Quatre
+  - QC-101: GaspÃ©
+  - QC-102: Maniwaki
+  - QC-103: ÃŽles-de-la-Madeleine
+  - QC-104: Havre St-Pierre
+  - QC-105: Kuujjuarapik
+  - QC-106: Quaqtaq
+  - QC-107: Tadoussac
+  - QC-108: RiviÃ¨re-du-Loup
+  - QC-109: Longueuil
+  - QC-110: Nicolet
+  - QC-111: New Carlisle
+  - QC-112: Ivujivik
+  - QC-113: Laurentides (RÃ©serve faunique)
+  - QC-114: Parent
+  - QC-115: Schefferville
+  - QC-116: Waskaganish
+  - QC-117: Aupaluk
+  - QC-118: Kangiqsualujjuaq
+  - QC-119: Charlevoix
+  - QC-11: La Malbaie
+  - QC-120: Cap Chat
+  - QC-121: Chibougamau
+  - QC-122: Umiujaq
+  - QC-123: Mirabel
+  - QC-124: Montmagny
+  - QC-125: Natashquan
+  - QC-126: Gatineau
+  - QC-127: Mont-Joli
+  - QC-128: Salluit
+  - QC-129: Matagami
+  - QC-130: Trois-RiviÃ¨res
+  - QC-131: Inukjuak
+  - QC-132: Shawinigan
+  - QC-133: QuÃ©bec
+  - QC-134: Roberval
+  - QC-135: Sutton
+  - QC-136: Sherbrooke
+  - QC-137: Joliette
+  - QC-138: Rimouski
+  - QC-139: TÃ©miscamingue
+  - QC-13: Saint-JÃ©rÃ´me
+  - QC-140: Farnham
+  - QC-141: Sept-ÃŽles
+  - QC-142: Port-Menier
+  - QC-143: Salaberry-de-Valleyfield
+  - QC-144: Alma
+  - QC-145: Tasiujaq
+  - QC-146: Amqui
+  - QC-147: MontrÃ©al
+  - QC-148: Rouyn-Noranda
+  - QC-149: Val-d'Or
+  - QC-14: Lachute
+  - QC-150: Kuujjuaq
+  - QC-151: MatapÃ©dia
+  - QC-152: Chevery
+  - QC-153: Manicouagan
+  - QC-154: La Tuque
+  - QC-155: Kangiqsujuaq
+  - QC-156: L'Assomption
+  - QC-157: Victoriaville
+  - QC-158: La Grande RiviÃ¨re
+  - QC-159: Kangirsuk
+  - QC-15: Matane
+  - QC-160: Baie-Comeau
+  - QC-161: Bagotville
+  - QC-162: Varennes
+  - QC-163: Blanc-Sablon
+  - QC-165: Baie-Saint-Paul
+  - QC-166: Saguenay
+  - QC-167: Mont-Tremblant
+  - QC-168: Amos
+  - QC-169: Grande-VallÃ©e
+  - QC-16: Murdochville
+  - QC-17: Papineau
+  - QC-18: PercÃ©
+  - QC-19: Pontiac
+  - QC-20: Pointe-Ã -la-Croix
+  - QC-21: Richelieu
+  - QC-22: Saint-Hyacinthe
+  - QC-24: Trois-Pistoles
+  - QC-25: Berthierville
+  - QC-26: Escoumins
+  - QC-27: Forestville
+  - QC-28: Saint-Jean-sur-Richelieu
+  - QC-29: Fermont
+  - QC-2: Drummondville
+  - QC-30: La VÃ©rendrye (RÃ©serve faunique)
+  - QC-33: Sainte-Agathe
+  - QC-35: TÃ©miscouata
+  - QC-36: Akulivik
+  - QC-38: Asbestos
+  - QC-40: Puvirnituq
+  - QC-41: Vanier
+  - QC-42: Val-des-Monts
+  - QC-45: La Sarre
+  - QC-46: Contrecoeur
+  - QC-47: Mont-Laurier
+  - QC-48: Beauceville
+  - QC-49: Beauharnois
+  - QC-50: BÃ©cancour
+  - QC-51: BerniÃ¨res
+  - QC-52: Blainville
+  - QC-53: Boisbriand
+  - QC-54: Bonaventure
+  - QC-55: Candiac
+  - QC-56: Carignan
+  - QC-57: Carleton-sur-Mer
+  - QC-58: Chambly
+  - QC-59: Chelsea
+  - QC-5: Granby
+  - QC-60: Coaticook
+  - QC-61: Cowansville
+  - QC-62: Delson
+  - QC-63: Deux-Montagnes
+  - QC-64: Dolbeau-Mistassini
+  - QC-65: Donnacona
+  - QC-66: Vaudreuil-Dorion
+  - QC-67: Forillon
+  - QC-68: Huntingdon
+  - QC-69: Baie-James
+  - QC-70: Kamouraska
+  - QC-71: La Prairie
+  - QC-72: Lac-MÃ©gantic
+  - QC-73: Lac-Saint-Jean
+  - QC-74: LanaudiÃ¨re
+  - QC-76: Laval
+  - QC-77: L'Islet
+  - QC-78: LÃ©vis
+  - QC-81: Lorraine
+  - QC-83: Magog
+  - QC-84: Marieville
+  - QC-85: Mascouche
+  - QC-89: Mauricie
+  - QC-90: Mingan
+  - QC-92: Mont Saint-Hilaire
+  - QC-93: Otterburn Park
+  - QC-94: GaspÃ©sie (Parc national)
+  - QC-95: Forillon ( Parc national)
+  - QC-96: Pincourt
+  - QC-97: Port-Cartier
+  - QC-98: PrÃ©vost
+  - QC-99: Lac Raglan
+  - QC-A0: Repentigny
+  - QC-A1: Gouin (RÃ©servoir)
+  - QC-A2: Rigaud
+  - QC-A3: RosemÃ¨re
+  - QC-A5: Saint-Amable
+  - QC-A6: Saint-Basile Le Grand
+  - QC-A7: Saint-Constant
+  - QC-A8: Sainte-Anne-Des-Monts
+  - QC-A9: Sainte-Anne-Des-Plaines
+  - QC-B0: Sainte-Catherine
+  - QC-B1: Sainte-Julie
+  - QC-B2: Sainte-Sophie
+  - QC-B3: Sainte-ThÃ©rÃ¨se
+  - QC-B4: Saint-Eustache
+  - QC-B5: Saint-FÃ©licien
+  - QC-B6: Saint-Georges
+  - QC-B7: Saint-Lazare
+  - QC-B8: Saint-Lin-Laurentides
+  - QC-B9: Saint-Luc
+  - QC-C0: Saint-Michel-des-Saints
+  - QC-C1: Saint-NicÃ©phore
+  - QC-C2: Saint-RÃ©mi
+  - QC-C3: Saint-Sauveur
+  - QC-C4: Saint-TimothÃ©e
+  - QC-C6: Sorel-Tracy
+  - QC-C7: Terrebonne
+  - QC-C8: Thetford Mines
+  - QC-C9: Tracy
+  - QC-D0: VallÃ©e de la MatapÃ©dia
+  - QC-D2: Louiseville
+  - QC-D3: Le Gardeur
+  - QC-D4: Chandler
+  - SK-10: Oxbow
+  - SK-11: Shaunavon
+  - SK-12: Tisdale
+  - SK-13: La Loche
+  - SK-14: Lucky Lake
+  - SK-15: Waskesiu Lake
+  - SK-16: Maple Creek
+  - SK-17: Hudson Bay
+  - SK-18: Elbow
+  - SK-19: Wynyard
+  - SK-1: Rosthern
+  - SK-20: Key Lake
+  - SK-21: Kindersley
+  - SK-22: Meadow Lake
+  - SK-23: Rosetown
+  - SK-24: Moose Jaw
+  - SK-25: Spiritwood
+  - SK-26: Scott
+  - SK-27: Prince Albert
+  - SK-28: Val Marie
+  - SK-29: Cypress Hills (Parc provincial)
+  - SK-2: Biggar
+  - SK-30: Collins Bay
+  - SK-31: Weyburn
+  - SK-32: Regina
+  - SK-33: Yorkton
+  - SK-34: North Battleford
+  - SK-35: Last Mountain Lake (Sanctuaire)
+  - SK-36: Stony Rapids
+  - SK-37: Outlook
+  - SK-38: La Ronge
+  - SK-39: Buffalo Narrows
+  - SK-3: Canora
+  - SK-40: Saskatoon
+  - SK-41: Swift Current
+  - SK-42: Coronach
+  - SK-43: Indian Head
+  - SK-44: Uranium City
+  - SK-45: Eastend
+  - SK-46: Melfort
+  - SK-47: Nipawin
+  - SK-48: Broadview
+  - SK-49: Watrous
+  - SK-4: Carlyle
+  - SK-50: Southend Reindeer
+  - SK-51: Assiniboia
+  - SK-52: Leader
+  - SK-53: Estevan
+  - SK-54: Rockglen
+  - SK-55: Pelican Narrows
+  - SK-56: Lloydminster
+  - SK-5: Fort Qu'Appelle
+  - SK-6: Humboldt
+  - SK-7: Kamsack
+  - SK-8: Melville
+  - SK-9: Moosomin
+  - YT-10: Mayo
+  - YT-11: Old Crow
+  - YT-12: Faro
+  - YT-13: Watson Lake
+  - YT-14: Teslin
+  - YT-15: Beaver Creek
+  - YT-16: Whitehorse
+  - YT-17: Carmacks
+  - YT-1: Lac Kluane
+  - YT-2: Carcross
+  - YT-3: Rancheria
+  - YT-4: Dempster (Route)
+  - YT-5: Haines Junction
+  - YT-6: Dawson
+  - YT-7: Burwash Landing
+  - YT-8: Ross River
+  - YT-9: Rock River
