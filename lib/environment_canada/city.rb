@@ -31,11 +31,24 @@ module EnvironmentCanada
     # Return a hash with the current weather conditions
     def conditions
       feed = get_feed.body
+      parse_feed(feed)
+      {}
     end
 
     # Download the RSS conditions feed from Environment Canada
     def get_feed
       HTTParty.get(FeedBaseURL + "#{@code.downcase}_e.xml")
+    end
+
+    # Retrieve the weather conditions data from the RSS
+    def parse_feed(data)
+      doc = Nokogiri::XML(data)
+      entries = doc.xpath('//xmlns:entry')
+      current_conditions = entries.find do |entry|
+        category = entry.at_xpath('xmlns:category')
+        category.attribute("term").value == "Current Conditions"
+      end
+      {}
     end
   end
 end
