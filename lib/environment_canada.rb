@@ -1,4 +1,5 @@
 require "httparty"
+require "nokogiri"
 require "safe_yaml"
 
 require "environment_canada/city"
