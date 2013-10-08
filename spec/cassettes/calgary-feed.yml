@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://weather.gc.ca/rss/city/ab-52_e.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 08 Oct 2013 02:25:06 GMT
+      Server:
+      - Apache
+      Last-Modified:
+      - Tue, 08 Oct 2013 02:05:54 GMT
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '6302'
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - application/xml
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n <feed xmlns=\"http://www.w3.org/2005/Atom\"
+        xml:lang=\"en-ca\">\n \n<!--\nThis is a data file that is meant to be read
+        by RSS readers or aggregators.\nSee http://www.ec.gc.ca/meteo-weather/default.asp?lang=En&n=11703207-1
+        to learn more about our RSS service.\n-->\n\n <title>Calgary - Weather - Environment
+        Canada</title>\n <link rel=\"related\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"
+        type=\"text/html\"/>\n <link rel=\"self\" href=\"http://www.weather.gc.ca/rss/city/ab-52_e.xml\"
+        type=\"application/atom+xml\"/>\n <link rel=\"alternate\" hreflang=\"fr-ca\"
+        href=\"http://www.meteo.gc.ca/rss/city/ab-52_f.xml\" type=\"application/atom+xml\"/>\n
+        <author>\n <name>Environment Canada</name>\n <uri>http://www.weather.gc.ca</uri>\n
+        </author>\n <updated>2013-10-08T02:05:54Z</updated>\n <id>tag:weather.gc.ca,2013-04-16:20131008020554</id>\n
+        <logo>http://www.weather.gc.ca/build/theme-gcwu-fegc/images/wmms.gif</logo>\n
+        <icon>http://www.weather.gc.ca/build/theme-gcwu-fegc/images/favicon.ico</icon>\n
+        <rights>Copyright 2013, Environment Canada</rights>\n <entry>\n <title>No
+        watches or warnings in effect, Calgary</title>\n <link type=\"text/html\"
+        href=\"http://www.weather.gc.ca/warnings/index_e.html\"/>\n <updated>2013-08-14T03:45:00Z</updated>\n
+        <published>2013-08-14T03:45:00Z</published>\n <category term=\"Warnings and
+        Watches\"/>\n <summary type=\"html\">No watches or warnings in effect.</summary>\n
+        <id>tag:weather.gc.ca,2013-04-16:ab-52_w1:20130814034500</id>\n </entry>\n
+        <entry>\n <title>Current Conditions: Mainly Clear, 8.5&#xB0;C</title>\n <link
+        type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-08T02:00:00Z</updated>\n <published>2013-10-08T02:00:00Z</published>\n
+        <category term=\"Current Conditions\"/>\n <summary type=\"html\"><![CDATA[<b>Observed
+        at:</b> Calgary Int'l Airport 8:00 PM MDT Monday 07 October 2013 <br/>\n<b>Condition:</b>
+        Mainly Clear <br/>\n<b>Temperature:</b> 8.5&deg;C <br/>\n<b>Pressure / Tendency:</b>
+        100.3 kPa falling<br/>\n<b>Visibility:</b> 32.2 km<br/>\n<b>Humidity:</b>
+        51 %<br/>\n<b>Dewpoint:</b> -1.0&deg;C <br/>\n<b>Wind:</b> WSW 9 km/h<br/>\n<b>Air
+        Quality Health Index:</b> 3 <br/>\n]]></summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_cc:20131008020000</id>\n
+        </entry>\n <entry>\n <title>Monday night: A few clouds. Low plus 4.</title>\n
+        <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">A few clouds.
+        Wind west 30 km/h gusting to 50 becoming light overnight. Low plus 4. Forecast
+        issued 4:00 PM MDT Monday 07 October 2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc1:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Tuesday: Increasing cloudiness. High 9.</title>\n
+        <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">Increasing
+        cloudiness in the morning. Wind becoming northwest 20 km/h near noon. High
+        9. Forecast issued 4:00 PM MDT Monday 07 October 2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc2:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Tuesday night: Chance of showers. Low minus 2
+        with frost. POP 40%</title>\n <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">Partly cloudy.
+        40 percent chance of showers in the evening. Clearing overnight. Wind northwest
+        20 km/h becoming light near midnight. Low minus 2 with frost. Forecast issued
+        4:00 PM MDT Monday 07 October 2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc3:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Wednesday: Sunny. High 13.</title>\n <link type=\"text/html\"
+        href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n <updated>2013-10-07T22:00:00Z</updated>\n
+        <published>2013-10-07T22:00:00Z</published>\n <category term=\"Weather Forecasts\"/>\n
+        <summary type=\"html\">Sunny. High 13. Forecast issued 4:00 PM MDT Monday
+        07 October 2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc4:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Thursday: A mix of sun and cloud. Low plus 3.
+        High 8.</title>\n <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">A mix of sun
+        and cloud. Low plus 3. High 8. Forecast issued 4:00 PM MDT Monday 07 October
+        2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc5:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Friday: Sunny. Low minus 1. High 9.</title>\n
+        <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">Sunny. Low
+        minus 1. High 9. Forecast issued 4:00 PM MDT Monday 07 October 2013</summary>\n
+        <id>tag:weather.gc.ca,2013-04-16:ab-52_fc6:20131007220000</id>\n </entry>\n
+        <entry>\n <title>Saturday: A mix of sun and cloud. Low minus 1. High 11.</title>\n
+        <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">A mix of sun
+        and cloud. Low minus 1. High 11. Forecast issued 4:00 PM MDT Monday 07 October
+        2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc7:20131007220000</id>\n
+        </entry>\n <entry>\n <title>Sunday: A mix of sun and cloud. Low zero. High
+        9.</title>\n <link type=\"text/html\" href=\"http://www.weather.gc.ca/city/pages/ab-52_metric_e.html\"/>\n
+        <updated>2013-10-07T22:00:00Z</updated>\n <published>2013-10-07T22:00:00Z</published>\n
+        <category term=\"Weather Forecasts\"/>\n <summary type=\"html\">A mix of sun
+        and cloud. Low zero. High 9. Forecast issued 4:00 PM MDT Monday 07 October
+        2013</summary>\n <id>tag:weather.gc.ca,2013-04-16:ab-52_fc8:20131007220000</id>\n
+        </entry>\n </feed>\n\n"
+    http_version: 
+  recorded_at: Tue, 08 Oct 2013 02:25:08 GMT
+recorded_with: VCR 2.6.0

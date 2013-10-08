@@ -27,5 +27,10 @@ module EnvironmentCanada
       @code = code
       @name = name
     end
+
+    # Download the RSS conditions feed from Environment Canada
+    def get_feed
+      HTTParty.get(FeedBaseURL + "#{@code.downcase}_e.xml")
+    end
   end
 end

@@ -15,4 +15,14 @@ describe EnvironmentCanada::City do
     results = EnvironmentCanada::City.find("Calgary")
     results.first.should respond_to(:code)
   end
+
+  describe "get_feed" do
+    it "downloads the RSS feed" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        xml = city.get_feed
+        WebMock.should have_requested(:get, EnvironmentCanada::FeedBaseURL + "ab-52_e.xml")
+      end
+    end
+  end
 end

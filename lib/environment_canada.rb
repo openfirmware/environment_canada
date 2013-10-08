@@ -8,5 +8,5 @@ SafeYAML::OPTIONS[:default_mode] = :safe
 
 module EnvironmentCanada
   # Your code goes here...
-  FeedBaseURL = "http://www.example.com"
+  FeedBaseURL = "http://weather.gc.ca/rss/city/"
 end
