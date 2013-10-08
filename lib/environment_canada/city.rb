@@ -10,12 +10,22 @@ module EnvironmentCanada
       # Return list of cities that match a keyword.
       def find(keyword)
         keyword = keyword.downcase
-        cities.find_all do |city_code, city_name|
+        results = cities.find_all do |city_code, city_name|
           city_name.downcase.include?(keyword)
+        end
+
+        results.collect do |result|
+          City.new(*result)
         end
       end
     end
 
+    attr_reader :code, :name
+
     # Instance Methods
+    def initialize(code, name)
+      @code = code
+      @name = name
+    end
   end
 end
