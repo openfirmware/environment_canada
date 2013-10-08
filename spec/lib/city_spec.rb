@@ -25,4 +25,14 @@ describe EnvironmentCanada::City do
       end
     end
   end
+
+  describe "conditions" do
+    it "downloads the RSS feed" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        city.should_receive(:get_feed).and_call_original
+        city.conditions
+      end
+    end
+  end
 end
