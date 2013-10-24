@@ -98,5 +98,13 @@ describe EnvironmentCanada::City do
         conditions[:wind].should == "WSW 9 km/h"
       end
     end
+
+    it "includes the current air quality health index" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:aqhi].should == "3"
+      end
+    end
   end
 end

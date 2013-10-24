@@ -70,7 +70,11 @@ module EnvironmentCanada
       matches = conditions_all.match(/<b>Wind:<\/b> (...? \d{1,3} km\/h)/)
       wind = matches[1]
 
+      matches = conditions_all.match(/<b>Air Quality Health Index:<\/b> (\d+)/)
+      aqhi = matches[1]
+
       {
+        aqhi:              aqhi,
         conditions:        conditions,
         dewpoint:          dewpoint,
         humidity:          humidity,
