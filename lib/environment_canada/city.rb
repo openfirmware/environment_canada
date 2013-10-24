@@ -61,8 +61,12 @@ module EnvironmentCanada
       matches = conditions_all.match(/<b>Visibility:<\/b> (\d+.\d+ km)/)
       visibility = matches[1]
 
+      matches = conditions_all.match(/<b>Humidity:<\/b> (\d+.?\d+ %)/)
+      humidity = matches[1]
+
       {
         conditions:        conditions,
+        humidity:          humidity,
         pressure:          pressure,
         pressure_tendency: pressure_tendency,
         temperature:       temperature,

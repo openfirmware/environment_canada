@@ -74,5 +74,13 @@ describe EnvironmentCanada::City do
         conditions[:visibility].should == "32.2 km"
       end
     end
+
+    it "includes the current humidity" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:humidity].should == "51 %"
+      end
+    end
   end
 end
