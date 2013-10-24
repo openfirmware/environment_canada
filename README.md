@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ### Finding a City
 
-A list of City objects can be retrieved using the `City.find` method.
+A list of `City` objects can be retrieved using the `City.find` method.
 
 	EnvironmentCanada::City.find("Calgary")
 
@@ -28,7 +28,7 @@ This will return an array of `City` objects, or none if no match was found. The 
 
 ### Manually Creating a City Object
 
-Alternatively, create a City object by passing in the city code and name:
+Alternatively, create a `City` object by passing in the city code and name:
 
 	city = EnvironmentCanada::City.new("AB-52", "Calgary")
 
@@ -44,7 +44,7 @@ You can then process the XML as you see fit.
 
 ### Current Weather Conditions
 
-To retrieve the current weather conditions, use the `City#conditions#` method. This will download the current conditions from Environment Canada and return a Hash with the following keys:
+To retrieve the current weather conditions, use the `City.conditions` method. This will download the current conditions from Environment Canada and return a Hash with the following keys:
 
 * aqhi (Air Quality Health Index)
 * conditions
