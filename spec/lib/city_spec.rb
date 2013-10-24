@@ -66,5 +66,13 @@ describe EnvironmentCanada::City do
         conditions[:pressure_tendency].should == "falling"
       end
     end
+
+    it "includes the current visibility" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:visibility].should == "32.2 km"
+      end
+    end
   end
 end

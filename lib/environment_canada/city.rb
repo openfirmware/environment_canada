@@ -58,11 +58,15 @@ module EnvironmentCanada
       pressure = matches[1]
       pressure_tendency = matches[2]
 
+      matches = conditions_all.match(/<b>Visibility:<\/b> (\d+.\d+ km)/)
+      visibility = matches[1]
+
       {
         conditions:        conditions,
-        temperature:       temperature,
         pressure:          pressure,
-        pressure_tendency: pressure_tendency
+        pressure_tendency: pressure_tendency,
+        temperature:       temperature,
+        visibility:        visibility
       }
     end
   end
