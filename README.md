@@ -1,6 +1,6 @@
 # EnvironmentCanada
 
-A gem for retrieving weather conditions and forecasts for Canadian cities from Environment Canada.
+An unofficial gem for retrieving weather conditions and forecasts for Canadian cities from Environment Canada. Not endorsed or affiliated with Environment Canada in any way.
 
 ## Installation
 
