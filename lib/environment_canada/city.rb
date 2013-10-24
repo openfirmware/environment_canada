@@ -32,7 +32,6 @@ module EnvironmentCanada
     def conditions
       feed = get_feed.body
       parse_feed(feed)
-      {}
     end
 
     # Download the RSS conditions feed from Environment Canada
@@ -48,7 +47,13 @@ module EnvironmentCanada
         category = entry.at_xpath('xmlns:category')
         category.attribute("term").value == "Current Conditions"
       end
-      {}
+
+      conditions_all = current_conditions.at_xpath('xmlns:title').text()
+      conditions = conditions_all.split(': ')[1].split(',')[0]
+
+      {
+        conditions: conditions
+      }
     end
   end
 end
