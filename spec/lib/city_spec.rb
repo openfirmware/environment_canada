@@ -50,5 +50,21 @@ describe EnvironmentCanada::City do
         conditions[:temperature].should == 8.5
       end
     end
+
+    it "includes the current pressure" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:pressure].should == "100.3 kPa"
+      end
+    end
+
+    it "includes the current pressure tendency" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:pressure_tendency].should == "falling"
+      end
+    end
   end
 end

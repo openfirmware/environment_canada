@@ -48,14 +48,21 @@ module EnvironmentCanada
         category.attribute("term").value == "Current Conditions"
       end
 
-      conditions_all = current_conditions.at_xpath('xmlns:title').text()
-      matches = conditions_all.match(/\ACurrent Conditions: ([^,]+), (\d+\.\d+)/)
+      conditions_basic = current_conditions.at_xpath('xmlns:title').text()
+      matches = conditions_basic.match(/\ACurrent Conditions: ([^,]+), (\d+\.\d+)/)
       conditions = matches[1]
       temperature = matches[2].to_f
 
+      conditions_all = current_conditions.at_xpath('xmlns:summary').text()
+      matches = conditions_all.match(/<b>Pressure \/ Tendency:<\/b> (\d+.\d+ kPa) ([^<]+)/)
+      pressure = matches[1]
+      pressure_tendency = matches[2]
+
       {
-        conditions:  conditions,
-        temperature: temperature
+        conditions:        conditions,
+        temperature:       temperature,
+        pressure:          pressure,
+        pressure_tendency: pressure_tendency
       }
     end
   end
