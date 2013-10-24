@@ -44,7 +44,19 @@ You can then process the XML as you see fit.
 
 ### Current Weather Conditions
 
-TODO
+To retrieve the current weather conditions, use the `City#conditions#` method. This will download the current conditions from Environment Canada and return a Hash with the following keys:
+
+* aqhi (Air Quality Health Index)
+* conditions
+* dewpoint
+* humidity
+* pressure
+* pressure_tendency
+* temperature
+* visibility
+* wind
+
+This data is not cached, and repeated calls will make new HTTP connections.
 
 ### Weather Forecast
 
