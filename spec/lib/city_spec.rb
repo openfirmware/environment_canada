@@ -42,5 +42,13 @@ describe EnvironmentCanada::City do
         conditions[:conditions].should == "Mainly Clear"
       end
     end
+
+    it "includes the current temperature" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:temperature].should == 8.5
+      end
+    end
   end
 end

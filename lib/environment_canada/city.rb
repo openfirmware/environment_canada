@@ -49,10 +49,13 @@ module EnvironmentCanada
       end
 
       conditions_all = current_conditions.at_xpath('xmlns:title').text()
-      conditions = conditions_all.split(': ')[1].split(',')[0]
+      matches = conditions_all.match(/\ACurrent Conditions: ([^,]+), (\d+\.\d+)/)
+      conditions = matches[1]
+      temperature = matches[2].to_f
 
       {
-        conditions: conditions
+        conditions:  conditions,
+        temperature: temperature
       }
     end
   end
