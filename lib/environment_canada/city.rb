@@ -49,7 +49,7 @@ module EnvironmentCanada
       end
 
       conditions_basic = current_conditions.at_xpath('xmlns:title').text()
-      matches = conditions_basic.match(/\ACurrent Conditions: ([^,]+), (\d+\.\d+)/)
+      matches = conditions_basic.match(/\ACurrent Conditions: ([^,]+), (-?\d+\.\d+)/)
       conditions = matches[1]
       temperature = matches[2].to_f
 
@@ -64,8 +64,12 @@ module EnvironmentCanada
       matches = conditions_all.match(/<b>Humidity:<\/b> (\d+.?\d+ %)/)
       humidity = matches[1]
 
+      matches = conditions_all.match(/<b>Dewpoint:<\/b> (-?\d+.?\d+)/)
+      dewpoint = matches[1].to_f
+
       {
         conditions:        conditions,
+        dewpoint:          dewpoint,
         humidity:          humidity,
         pressure:          pressure,
         pressure_tendency: pressure_tendency,

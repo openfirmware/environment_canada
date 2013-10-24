@@ -82,5 +82,13 @@ describe EnvironmentCanada::City do
         conditions[:humidity].should == "51 %"
       end
     end
+
+    it "includes the current dewpoint" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:dewpoint].should == -1.0
+      end
+    end
   end
 end
