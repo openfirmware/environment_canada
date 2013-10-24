@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamesbadger@gmail.com"]
   spec.description   = %q{Environment Canada weather library}
   spec.summary       = %q{Connects to Environment Canada, downloads the weather information for a city, parses it, and returns it as a Ruby object.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/openfirmware/environment_canada"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
