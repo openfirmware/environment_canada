@@ -90,5 +90,13 @@ describe EnvironmentCanada::City do
         conditions[:dewpoint].should == -1.0
       end
     end
+
+    it "includes the current wind direction and speed" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:wind].should == "WSW 9 km/h"
+      end
+    end
   end
 end

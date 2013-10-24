@@ -67,6 +67,9 @@ module EnvironmentCanada
       matches = conditions_all.match(/<b>Dewpoint:<\/b> (-?\d+.?\d+)/)
       dewpoint = matches[1].to_f
 
+      matches = conditions_all.match(/<b>Wind:<\/b> (...? \d{1,3} km\/h)/)
+      wind = matches[1]
+
       {
         conditions:        conditions,
         dewpoint:          dewpoint,
@@ -74,7 +77,8 @@ module EnvironmentCanada
         pressure:          pressure,
         pressure_tendency: pressure_tendency,
         temperature:       temperature,
-        visibility:        visibility
+        visibility:        visibility,
+        wind:              wind
       }
     end
   end
