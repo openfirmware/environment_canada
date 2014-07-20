@@ -1,4 +1,4 @@
-Copyright (c) 2013 James Badger
+Copyright (c) 2013–2014 James Badger
 
 MIT License
 
