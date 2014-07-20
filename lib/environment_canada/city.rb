@@ -58,6 +58,8 @@ module EnvironmentCanada
       pressure = matches[1]
       pressure_tendency = matches[2]
 
+      retrieved_at = current_conditions.at_xpath('xmlns:updated').text()
+
       matches = conditions_all.match(/<b>Visibility:<\/b> (\d+.\d+ km)/)
       visibility = matches[1]
 
@@ -80,6 +82,7 @@ module EnvironmentCanada
         humidity:          humidity,
         pressure:          pressure,
         pressure_tendency: pressure_tendency,
+        retrieval_date:    retrieved_at,
         temperature:       temperature,
         visibility:        visibility,
         wind:              wind

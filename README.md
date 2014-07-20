@@ -52,6 +52,7 @@ To retrieve the current weather conditions, use the `City.conditions` method. Th
 * humidity
 * pressure
 * pressure_tendency
+* retrieval_date
 * temperature
 * visibility
 * wind

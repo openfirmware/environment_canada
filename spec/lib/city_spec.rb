@@ -106,5 +106,13 @@ describe EnvironmentCanada::City do
         conditions[:aqhi].should == "3"
       end
     end
+
+    it "includes the date it was retrieved" do
+      VCR.use_cassette("calgary-feed") do
+        city = EnvironmentCanada::City.new("AB-52", "Calgary")
+        conditions = city.conditions
+        conditions[:retrieval_date].should == "2013-10-08T02:00:00Z"
+      end
+    end
   end
 end
